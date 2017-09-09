@@ -1,0 +1,196 @@
+/*
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+/* line 8, /app/driver_scan/vendor/assets/css/landing-page.scss */
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 14, /app/driver_scan/vendor/assets/css/landing-page.scss */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+}
+
+/* line 25, /app/driver_scan/vendor/assets/css/landing-page.scss */
+.topnav {
+  font-size: 14px;
+}
+
+/* line 29, /app/driver_scan/vendor/assets/css/landing-page.scss */
+.lead {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* line 34, /app/driver_scan/vendor/assets/css/landing-page.scss */
+.intro-header {
+  padding-top: 50px;
+  /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+  padding-bottom: 50px;
+  text-align: center;
+  color: #f8f8f8;
+  background-image: url("/assets/intro-bg-cc19335447b7d195bf8a284a60779473c83696c0c4fef9d113d4c7b37577f2e1.jpg");
+  background-size: cover;
+}
+
+/* line 43, /app/driver_scan/vendor/assets/css/landing-page.scss */
+.intro-message {
+  position: relative;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+/* line 49, /app/driver_scan/vendor/assets/css/landing-page.scss */
+.intro-message > h1 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 5em;
+}
+
+/* line 55, /app/driver_scan/vendor/assets/css/landing-page.scss */
+.intro-divider {
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* line 61, /app/driver_scan/vendor/assets/css/landing-page.scss */
+.intro-message > h3 {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 767px) {
+  /* line 66, /app/driver_scan/vendor/assets/css/landing-page.scss */
+  .intro-message {
+    padding-bottom: 15%;
+  }
+
+  /* line 70, /app/driver_scan/vendor/assets/css/landing-page.scss */
+  .intro-message > h1 {
+    font-size: 3em;
+  }
+
+  /* line 74, /app/driver_scan/vendor/assets/css/landing-page.scss */
+  ul.intro-social-buttons > li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+
+  /* line 80, /app/driver_scan/vendor/assets/css/landing-page.scss */
+  ul.intro-social-buttons > li:last-child {
+    margin-bottom: 0;
+  }
+
+  /* line 84, /app/driver_scan/vendor/assets/css/landing-page.scss */
+  .intro-divider {
+    width: 100%;
+  }
+}
+/* line 89, /app/driver_scan/vendor/assets/css/landing-page.scss */
+.network-name {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+/* line 96, /app/driver_scan/vendor/assets/css/landing-page.scss */
+.content-section-a {
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+
+/* line 101, /app/driver_scan/vendor/assets/css/landing-page.scss */
+.content-section-b {
+  padding: 50px 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+/* line 107, /app/driver_scan/vendor/assets/css/landing-page.scss */
+.section-heading {
+  margin-bottom: 30px;
+}
+
+/* line 111, /app/driver_scan/vendor/assets/css/landing-page.scss */
+.section-heading-spacer {
+  float: left;
+  width: 200px;
+  border-top: 3px solid #e7e7e7;
+}
+
+/* line 117, /app/driver_scan/vendor/assets/css/landing-page.scss */
+.banner {
+  padding: 100px 0;
+  color: #f8f8f8;
+  background-image: url("/assets/banner-bg-8965a98dcf2dc827b7e995e567cdd888d82765a9afbbd7a9887cd73787304f55.jpg");
+  background-size: cover;
+}
+
+/* line 124, /app/driver_scan/vendor/assets/css/landing-page.scss */
+.banner h2 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 3em;
+}
+
+/* line 130, /app/driver_scan/vendor/assets/css/landing-page.scss */
+.banner ul {
+  margin-bottom: 0;
+}
+
+/* line 134, /app/driver_scan/vendor/assets/css/landing-page.scss */
+.banner-social-buttons {
+  float: right;
+  margin-top: 0;
+}
+
+@media (max-width: 1199px) {
+  /* line 140, /app/driver_scan/vendor/assets/css/landing-page.scss */
+  ul.banner-social-buttons {
+    float: left;
+    margin-top: 15px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 147, /app/driver_scan/vendor/assets/css/landing-page.scss */
+  .banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 3em;
+  }
+
+  /* line 153, /app/driver_scan/vendor/assets/css/landing-page.scss */
+  ul.banner-social-buttons > li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+
+  /* line 159, /app/driver_scan/vendor/assets/css/landing-page.scss */
+  ul.banner-social-buttons > li:last-child {
+    margin-bottom: 0;
+  }
+}
+/* line 164, /app/driver_scan/vendor/assets/css/landing-page.scss */
+footer {
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+
+/* line 169, /app/driver_scan/vendor/assets/css/landing-page.scss */
+p.copyright {
+  margin: 15px 0 0;
+}
