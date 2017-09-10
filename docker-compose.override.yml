@@ -1,9 +1,11 @@
-web:
-  volumes:
-    - '.:/app/driver_scan'
-  environment:
-    RAILS_ENV: "${RAILS_ENV}"
+version: '3'
+services:
+  web:
+    volumes:
+      - '.:/app/driver_scan'
+    environment:
+      RAILS_ENV: "${RAILS_ENV}"
 
-shell:
-  environment:
-    RAILS_ENV: "${RAILS_ENV}"
+  shell:
+    environment:
+      RAILS_ENV: "${RAILS_ENV}"
